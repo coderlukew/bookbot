@@ -19,7 +19,7 @@ def main():
     print(f" Found {num_words} total words")
     print("--------- Character Count -------")
     for entry in sorted:
-        print(f" '{entry['char']}': {entry['num']}")
+        print(f" {entry['char']}: {entry['num']}")
     print("============= END ===============")
 
 main()
